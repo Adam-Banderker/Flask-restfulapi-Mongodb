@@ -1,0 +1,2 @@
+# Flask-restfulapi-Mongodb
+ building a Movie database where a user can (Add, Edit, Update &amp; delete) Genre, Movie, and Casts. First of all, we will start with a basic APIs structure with just Flask and then learn about integrating MongoDB with the application, finally, we will learn about structuring our API following the best practices with the minimal setup using Flask-RESTful. And then we will continue with Authentication and Authorization, testing and deploying flask application.
