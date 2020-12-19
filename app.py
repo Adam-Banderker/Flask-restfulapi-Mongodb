@@ -8,7 +8,7 @@ from flask_restful import Api
 from resources.errors import errors
 
 app = Flask(__name__)
-app.config.from_envvar('ENV_FILE_LOCATION')
+app.config.from_envvar('ENV_FILE_LOCATION')#app.config['PROPAGATE_EXCEPTIONS'] = True
 mail = Mail(app)
 
 # imports requiring app and mail
